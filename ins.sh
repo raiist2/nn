@@ -20,7 +20,7 @@ sudo apt install lua-lgi
 sudo apt install build-essential checkinstall zlib1g-dev -y
 mkdir tmp
 cd tmp
-git clone https://github.com/george0884/lua-curl-error && cd lua-curl-error && tar -xzvf curl.tar.gz && sudo cp curl -r /usr/include/ && cd .. && sudo rm -Rf lua-curl-error
+git clone https://github.com/TeamRaiis/lua-curl-error && cd lua-curl-error && tar -xzvf curl.tar.gz && sudo cp curl -r /usr/include/ && cd .. && sudo rm -Rf lua-curl-error
 sudo  wget https://luarocks.org/releases/luarocks-2.4.3.tar.gz
 sudo  tar zxpf luarocks-2.4.3.tar.gz
 cd luarocks-2.4.3
