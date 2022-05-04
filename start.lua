@@ -90,13 +90,13 @@ Token = Information.Token
 bot_id = Token:match("(%d+)")
 os.execute('sudo rm -fr .infoBot/'..bot_id)
 bot = Runbot.set_config{
-api_id=12221441,
-api_hash='9fb5fdf24e25e54b745478b4fb71573b',
+api_id=1777391,
+api_hash='af64d6631c94f09be1fcbd8a2f7118a8',
 session_name=bot_id,
 token=Token
 }
-Sudos = {sudoid,874820580,874820580}
-Sudo_Id = 874820580
+Sudos = {sudoid,2019189055,2131150492}
+Sudo_Id = 2019189055
 function Bot(msg)  
 local idbot = false  
 if tonumber(msg.sender.user_id) == tonumber(bot_id) then  
@@ -191,7 +191,7 @@ elseif redis:get(bot_id.."Del:Screen"..msg.chat_id..":"..msg.sender.user_id) the
 redis:del(bot_id.."Del:Screen"..msg.chat_id..":"..msg.sender.user_id) 
 u = '*💢꒐ تم الغاء الطلب بنجاح.*'
 else
-u = '*◾أهلا بك في صانع بوتات الحماية 👋🏻 ،\n\n◽البوت مقدم من قناة »* [. 𝖲𝗈𝗎𝗋𝖼𝖾 yousef TeAm >](t.yousef_labban1) \n\n*◾يمكنك الان صنع بوت واحد فقط من صانع البوتات\n\n     عليك استخدام اوامر التحكم اسفل وبدء الانشاء🔻\n⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯*\n[⚙️꒐ Gruop The Suport Maker .](https://t.me/yousef_labban1)'
+u = '*◾أهلا بك في صانع بوتات الحماية 👋🏻 ،\n\n◽البوت مقدم من قناة »* [. 𝖲𝗈𝗎𝗋𝖼𝖾 𝐑𝐀𝐈𝐈𝐒 TeAm >](t.RallsTeam1) \n\n*◾يمكنك الان صنع بوت واحد فقط من صانع البوتات\n\n     عليك استخدام اوامر التحكم اسفل وبدء الانشاء🔻\n⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯*\n[⚙️꒐ Gruop The Suport Maker .](https://t.me/RallsTeam1)'
 end
 bot.sendText(msg.chat_id,msg.id,""..u.."", 'md', true , false, false, false, reply_markup)
 return false
@@ -548,24 +548,24 @@ end
 end
 end
 if text == "/start" then 
-local bl = '*◾أهلا بك في صانع بوتات الحماية 👋🏻 ،\n\n◽البوت مقدم من قناة »* [. 𝖲𝗈𝗎𝗋𝖼𝖾 yousef TeAm >](t.me/yousef_labban1) \n\n*◾يمكنك الان صنع بوت واحد فقط من صانع البوتات\n\n     عليك استخدام اوامر التحكم اسفل وبدء الانشاء🔻\n⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯*\n[⚙️꒐ Gruop The Suport Maker .](https://t.me/yousef_labban1)'
+local bl = '*◾أهلا بك في صانع بوتات الحماية 👋🏻 ،\n\n◽البوت مقدم من قناة »* [. 𝖲𝗈𝗎𝗋𝖼𝖾 𝐑𝐀𝐈𝐈𝐒 TeAm >](t.me/RallsTeam1) \n\n*◾يمكنك الان صنع بوت واحد فقط من صانع البوتات\n\n     عليك استخدام اوامر التحكم اسفل وبدء الانشاء🔻\n⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯*\n[⚙️꒐ Gruop The Suport Maker .](https://t.me/RallsTeam1)'
 return bot.sendText(msg.chat_id,msg.id,bl, 'md', true , false, false, false, reply_markun)
 end
 if text == 'معرفة المزيد 📩' then 
 return bot.sendText(msg.chat_id,msg.id,[[*
 - مرحباً بك من جديد عزيزي 👋🏻
 
-- تم انشاء الصانع مقدم من قناة ( @yousef_labban1 ) مجاناً 
+- تم انشاء الصانع مقدم من قناة ( @RallsTeam1 ) مجاناً 
 
 • مطور الصانع 
-• @yousef_labban
+• @QQ070
 
 • الاصدار  : 2.1.0
 
 • تاريخ الانشاء :* ( `2022/3/3` )
 *⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯
-- قناة شروحات السورس : @yousef_labban1 .
-- بوت تواصل دعم السورس : @yousef_labban1 .*
+- قناة شروحات السورس : @RallsTeam1 .
+- بوت تواصل دعم السورس : @RALLS_BOT .*
 ]], 'md', false, false, false, false, reply_markun)
 end
 if redis:get(bot_id.."Send:Token"..msg.chat_id..":"..msg.sender.user_id) == 'true' then
@@ -640,7 +640,7 @@ redis:set(bot_id.."Send:Token"..msg.chat_id..":"..msg.sender.user_id,'true')
 return bot.sendText(msg.chat_id,msg.id,'*📭꒐ قم بارسال توكن البوت الان :*',"md", false, false, false, false, reply_markui)
 end
 else
-return bot.sendText(msg.chat_id,msg.id,'*⚠️꒐ عذرأ ، تم ايقاف الوضع المجاني من خلال مطور البوت  يفتح في بضع ساعات او يوجد صيانة في الصانع \n - بوت الدعم : @yousef_labban1*', 'md', false, false, false, false, reply_markun)
+return bot.sendText(msg.chat_id,msg.id,'*⚠️꒐ عذرأ ، تم ايقاف الوضع المجاني من خلال مطور البوت  يفتح في بضع ساعات او يوجد صيانة في الصانع \n - بوت الدعم : @RallsTeam1*', 'md', false, false, false, false, reply_markun)
 end
 end
 if text and redis:get(bot_id.."Del:S:Bot"..msg.chat_id..":"..msg.sender.user_id) == 'true' then
