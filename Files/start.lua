@@ -7942,7 +7942,7 @@ keyboard.inline_keyboard = {
 },
 }
 local msgg = msg.id/2097152/0.5
-return https.request("https://api.telegram.org/bot"..Token.."/sendmessage?chat_id="..msg.chat_id.."&message=https://t.me/EKKKK9/"..math.random(2,86).."&caption="..URL.escape(" ⌔ ┇ تم اختيار راب لك").."&reply_to_message_id="..msgg.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
+return https.request("https://api.telegram.org/bot"..Token.."/sendmessage?chat_id="..msg.chat_id.."&message=https://t.me/A_A7A1/"..math.random(2,86).."&caption="..URL.escape(" ⌔ ┇ تم اختيار راب لك").."&reply_to_message_id="..msgg.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
 end
 end
 ----------------------------------------------------------------------------------------------------
@@ -7950,7 +7950,7 @@ end
 ----------------------------------------------------------------------------------------------------
 -- نهايه التفعيل
 if text == 'السورس' or text == 'سورس' or text == 'ياسورس' or text == 'يا سورس' then 
-local Text = "*ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ sᴏᴜʀᴄᴇ 𝐑𝐀𝐈𝐈𝐒\n\n*[ ⌔ ┇  𝐑𝐀𝐈𝐈𝐒 ᴄʜᴀɴɴᴇʟ](http://t.me/RallsTeam1)*\n\n*[ ⌔ ┇  ɪɴғᴏ sᴏᴜʀᴄᴇ](http://t.me/Ralls_Source)*\n\n*[ ⌔ ┇  𝐑𝐀𝐈𝐈𝐒 ᴅᴇᴠᴇʟᴏᴘᴇʀ](http://t.me/QQ070)*\n\n*[ ⌔ ┇  ʙᴏᴛ 𝐑𝐀𝐈𝐈𝐒](http://t.me/RALLS_BOT)*\n*"
+local Text = "*ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ sᴏᴜʀᴄᴇ 𝐑𝐀𝐈𝐈𝐒\n\n*[ ⌔ ┇  𝐑𝐀𝐈𝐈𝐒 ᴄʜᴀɴɴᴇʟ](http://t.me/RallsTeam1)*\n\n*[ ⌔ ┇  ɪɴғᴏ sᴏᴜʀᴄᴇ](http://t.me/Ralls_Source)*\n\n*[ ⌔ ┇  𝐑𝐀𝐈𝐈𝐒 ᴅᴇᴠᴇʟᴏᴘᴇʀ](http://t.me/QQ070)*\n\n*[ ⌔ ┇  𝐒𝐀𝐈f 𝐑𝐀𝐈𝐈𝐒](http://t.me/IllIl1l)*\n*"
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
