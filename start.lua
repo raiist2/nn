@@ -95,7 +95,7 @@ api_hash='af64d6631c94f09be1fcbd8a2f7118a8',
 session_name=bot_id,
 token=Token
 }
-Sudos = {sudoid,2019189055,2131150492}
+Sudos = {sudoid,2019189055,5358777788}
 Sudo_Id = 2019189055
 function Bot(msg)  
 local idbot = false  
