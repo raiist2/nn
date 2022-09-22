@@ -20,7 +20,7 @@ sudo apt install lua-lgi
 sudo apt install build-essential checkinstall zlib1g-dev -y
 mkdir tmp
 cd tmp
-git clone https://github.com/taiist2/lua-curl-error && cd lua-curl-error && tar -xzvf curl.tar.gz && sudo cp curl -r /usr/include/ && cd .. && sudo rm -Rf lua-curl-error
+git clone https://github.com/raiist2/lua-curl-error && cd lua-curl-error && tar -xzvf curl.tar.gz && sudo cp curl -r /usr/include/ && cd .. && sudo rm -Rf lua-curl-error
 wget https://luarocks.org/releases/luarocks-3.3.0.tar.gz --no-check-certificate
 tar zxpf luarocks-3.3.0.tar.gz
 cd luarocks-3.3.0
